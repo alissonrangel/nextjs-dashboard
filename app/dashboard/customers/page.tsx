@@ -1,3 +1,5 @@
+import { aladin } from "@/app/ui/fonts";
+
 export default function Page() {
-  return <p>Customers Page</p>;
+  return <p className={`${aladin.className} antialiased`}>Customers Page</p>;
 }
